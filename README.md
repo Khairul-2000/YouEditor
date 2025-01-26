@@ -1,8 +1,14 @@
-# React + Vite
+# Online Code Compiler
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is an online code compiler built using React, TailwindCSS, @monaco-editor/react, and the Piston API.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React**: A JavaScript library for building user interfaces.
+- **TailwindCSS**: A utility-first CSS framework for rapid UI development.
+- **@monaco-editor/react**: A Monaco Editor component for React applications.
+- **Piston API**: An API for executing code in various programming languages.
+
+## Live Demo
+
+Check out the live demo of the project [here](https://you-editor.vercel.app/).
