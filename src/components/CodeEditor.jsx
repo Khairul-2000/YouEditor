@@ -3,6 +3,7 @@ import { useRef, useState } from "react";
 import LanguageSelector from "./LanguageSelector";
 import { CODE_SNIPPETS } from "../constants";
 import Output from "./Output";
+import Navbar from "./Navbar";
 
 const CodeEditor = () => {
   const editorRef = useRef();
@@ -22,7 +23,8 @@ const CodeEditor = () => {
 
   return (
     <div>
-      <div className="grid grid-cols-2 items-center justify-center">
+      <Navbar />
+      <div className="grid xl:grid-cols-2 grid-cols-1 items-center justify-center">
         <div className="p-10 relative ">
           <LanguageSelector onSelect={onSelect} />
           <Editor

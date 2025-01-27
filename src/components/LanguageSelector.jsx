@@ -5,7 +5,10 @@ const languages = Object.entries(LANGUAGE_VERSIONS);
 const LanguageSelector = ({ onSelect }) => {
   return (
     <div className="mb-3">
-      <label htmlFor="language" className="block text-2xl text-white mb-2">
+      <label
+        htmlFor="language"
+        className="block text-2xl dark:text-white text-black mb-2"
+      >
         Language:
       </label>
       <select

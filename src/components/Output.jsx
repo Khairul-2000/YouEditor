@@ -32,13 +32,15 @@ const Output = ({ editorRef, language }) => {
   };
   return (
     <div className="">
-      <h2 className="text-2xl text-white">Output:</h2>
+      <h2 className="text-2xl text-black dark:text-white">Output:</h2>
       <button
         className="border border-green-300 p-2 rounded-md text-green-300 my-2 cursor-pointer hover:bg-gray-400"
         onClick={() => runCode()}
       >
         {isLoading ? (
-          <div className="border-red-400 border-[4px] w-[20px] h-[20px] rounded-full bg-transparent animate-spin mx-5"></div>
+          <div className=" w-[20px] h-[20px] rounded-full bg-transparent animate-spin mx-5">
+            ⌚
+          </div>
         ) : (
           "Run Code"
         )}
